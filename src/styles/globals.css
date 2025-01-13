@@ -25,3 +25,35 @@ body {
     text-wrap: balance;
   }
 }
+.container-custom {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container-custom {
+    width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container-custom {
+    width: 960px;
+  }
+  
+}
+@media (min-width: 1200px) {
+  .container-custom {
+    width: 1140px;
+  }
+}
+
+
+@media (min-width: 1400px) {
+  .container-custom {
+    width:1320px;
+}}
+@media (min-width: 1600px) {
+  .container-custom {
+    width:1550px;
+}}
